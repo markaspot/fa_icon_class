@@ -15,10 +15,10 @@
       "type": "package",
       "package": {
         "name": "FortAwesome/Font-Awesome",
-        "version": "4.6.3",
+        "version": "4.7.0",
         "type": "drupal-library",
         "dist": {
-          "url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.6.3.zip",
+          "url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.zip",
           "type": "zip"
         }
       },
@@ -43,7 +43,7 @@
     }
   ],
   "require": {
-    "FortAwesome/Font-Awesome": "4.6.3",
+    "FortAwesome/Font-Awesome": "4.7.0",
     "itsjavi/fontawesome-iconpicker": "1.22"
   }
 }
