@@ -12,38 +12,12 @@
   },
   "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "FortAwesome/Font-Awesome",
-        "version": "4.7.0",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.zip",
-          "type": "zip"
-        }
-      },
-      "require": {
-        "composer/installers": "~1.0"
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "itsjavi/fontawesome-iconpicker",
-        "version": "1.22",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://github.com/itsjavi/fontawesome-iconpicker/archive/1.2.2.zip",
-          "type": "zip"
-        },
-        "require": {
-          "composer/installers": "~1.0"
-        }
-      }
+      "type": "composer",
+      "url": "https://asset-packagist.org"
     }
   ],
   "require": {
-    "FortAwesome/Font-Awesome": "4.7.0",
-    "itsjavi/fontawesome-iconpicker": "1.22"
+    "npm-asset/font-awesome": "^4.7",
+    "npm-asset/fontawesome-iconpicker": "^1.3"
   }
 }
